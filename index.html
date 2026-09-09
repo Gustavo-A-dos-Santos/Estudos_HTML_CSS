@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoTech Oficina Mecânica | Seu carro em boas mãos</title>
+    <meta name="description" content="Serviços automotivos, manutenção e peças de qualidade em um só lugar. Agende seu atendimento na AutoTech.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="AutoTech Oficina Mecânica">
+    <meta property="og:description" content="Seu carro em boas mãos. Serviços automotivos, manutenção e peças de qualidade.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="./imagens/logo-carro.png">
+    <link rel="stylesheet" href="./css/estilo.css">
+  </head>
+  <body>
+    <div class="estrutura-site">
+      <header class="barra-topo">
+        <div class="conteiner envoltorio-nav">
+          <a class="marca" href="#inicio" aria-label="AutoTech Oficina Mecânica, voltar ao início">
+            <span class="marca-simbolo" aria-hidden="true"><img class="marca-simbolo-img" src="./imagens/favicon.svg" alt=""></span>
+            <span class="marca-texto"><span class="marca-nome">Auto<em>Tech</em></span><span class="marca-subtitulo">Oficina Mecânica</span></span>
+          </a>
+          <nav class="links-nav nav-desktop" aria-label="Navegação principal">
+            <a class="link-nav ativo" href="#inicio">Início</a><a class="link-nav" href="#servicos">Serviços</a><a class="link-nav" href="#pecas">Peças</a><a class="link-nav" href="#agendamento">Agendamento</a><a class="link-nav" href="#sobre">Sobre nós</a>
+          </nav>
+          <a class="botao botao-primario cta-cabecalho" href="#agendamento">▣ &nbsp; Agendar serviço</a>
+          <details class="nav-mobile">
+            <summary aria-label="Abrir menu"><span></span><span></span><span></span></summary>
+            <nav class="links-nav-mobile" aria-label="Menu mobile"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#pecas">Peças</a><a href="#agendamento">Agendamento</a><a href="#sobre">Sobre nós</a></nav>
+          </details>
+        </div>
+      </header>
+
+      <main>
+        <section class="destaque" id="inicio" aria-labelledby="destaque-titulo">
+          <div class="arte-garagem" aria-hidden="true"><span class="luz-garagem"></span><span class="luz-garagem dois"></span><span class="coluna-garagem"></span><span class="piso-garagem"></span><span class="forma-carro"><i class="roda esquerda"></i><i class="roda direita"></i></span></div>
+          <div class="conteiner destaque-conteudo">
+            <div class="destaque-texto">
+              <span class="rotulo">AutoTech Oficina</span>
+              <h1 class="destaque-titulo" id="destaque-titulo">Seu carro em <span>boas mãos.</span></h1>
+              <p class="destaque-descricao">Serviços automotivos, manutenção e peças de qualidade em um só lugar.</p>
+              <div class="destaque-acoes"><a class="botao botao-primario" href="#agendamento">+ &nbsp; Agendar serviço</a><a class="botao botao-contorno-claro" href="#pecas">▱ &nbsp; Ver peças</a></div>
+            </div>
+            <form class="cartao-rapido" action="#agendamento">
+              <div class="cartao-rapido-cabecalho"><span class="icone-rapido">▣</span><div><h2 class="titulo-rapido">Agendamento rápido</h2><p class="descricao-rapida">Escolha o serviço, a data e o horário.</p></div></div>
+              <div class="campos-rapidos">
+                <label class="campo-envoltorio"><span class="campo-icone">+</span><select class="campo-rapido" aria-label="Selecione o serviço"><option value="">Selecione o serviço</option><option>Troca de óleo</option><option>Freios</option><option>Alinhamento e balanceamento</option></select></label>
+                <label class="campo-envoltorio"><span class="campo-icone">□</span><input class="campo-rapido" type="date" aria-label="Data do serviço"></label>
+                <label class="campo-envoltorio"><span class="campo-icone">◷</span><select class="campo-rapido" aria-label="Horário do serviço"><option value="">Horário</option><option>08:00</option><option>10:30</option><option>14:00</option><option>16:30</option></select></label>
+              </div>
+              <button class="botao botao-primario" type="submit">▣ &nbsp; Agendar agora</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="secao secao-clara" id="servicos" aria-labelledby="titulo-servicos">
+          <div class="conteiner">
+            <div class="secao-cabecalho"><div><span class="rotulo">Nossos serviços</span><h2 id="titulo-servicos">Tudo o que seu carro precisa</h2></div><a class="secao-link" href="#agendamento">Ver todos os serviços <span>→</span></a></div>
+            <div class="grade-servicos">
+              <article class="cartao-servico"><span class="icone-servico">+</span><h3>Troca de óleo</h3><p>Motor protegido e pronto para a vida útil do seu carro.</p><a class="botao botao-contorno-escuro botao-pequeno" href="#agendamento">Agendar</a></article>
+              <article class="cartao-servico"><span class="icone-servico">◔</span><h3>Alinhamento e balanceamento</h3><p>Mais estabilidade, segurança e economia de pneus.</p><a class="botao botao-contorno-escuro botao-pequeno" href="#agendamento">Agendar</a></article>
+              <article class="cartao-servico"><span class="icone-servico">▣</span><h3>Bateria</h3><p>Diagnóstico preciso e troca com garantia.</p><a class="botao botao-contorno-escuro botao-pequeno" href="#agendamento">Agendar</a></article>
+              <article class="cartao-servico"><span class="icone-servico">◎</span><h3>Freios</h3><p>Mais segurança em todas as suas viagens.</p><a class="botao botao-contorno-escuro botao-pequeno" href="#agendamento">Agendar</a></article>
+              <article class="cartao-servico"><span class="icone-servico">▰</span><h3>Motor</h3><p>Revisão e manutenção para o melhor desempenho.</p><a class="botao botao-contorno-escuro botao-pequeno" href="#agendamento">Agendar</a></article>
+              <article class="cartao-servico"><span class="icone-servico">≋</span><h3>Ar-condicionado</h3><p>Conforto térmico em qualquer estação do ano.</p><a class="botao botao-contorno-escuro botao-pequeno" href="#agendamento">Agendar</a></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="secao secao-pecas" id="pecas" aria-labelledby="titulo-pecas">
+          <div class="conteiner">
+            <div class="secao-cabecalho"><div><span class="rotulo">Peças em destaque</span><h2 id="titulo-pecas">Qualidade e os melhores preços</h2></div><a class="secao-link" href="#pecas">Ver todas as peças <span>→</span></a></div>
+            <div class="grade-pecas">
+              <article class="cartao-peca"><div class="arte-peca freio"><span class="forma-peca"></span></div><div class="info-peca"><h3>Pastilha de freio</h3><p class="rotulo-peca">A partir de</p><p class="preco-peca">R$ 89,90</p><a class="botao botao-primario botao-pequeno" href="#agendamento">Comprar</a></div></article>
+              <article class="cartao-peca"><div class="arte-peca filtro"><span class="forma-peca"></span></div><div class="info-peca"><h3>Filtro de óleo</h3><p class="rotulo-peca">A partir de</p><p class="preco-peca">R$ 35,90</p><a class="botao botao-primario botao-pequeno" href="#agendamento">Comprar</a></div></article>
+              <article class="cartao-peca"><div class="arte-peca bateria"><span class="forma-peca"></span></div><div class="info-peca"><h3>Bateria 60Ah</h3><p class="rotulo-peca">A partir de</p><p class="preco-peca">R$ 499,90</p><a class="botao botao-primario botao-pequeno" href="#agendamento">Comprar</a></div></article>
+              <article class="cartao-peca"><div class="arte-peca ar"><span class="forma-peca"></span></div><div class="info-peca"><h3>Filtro de ar</h3><p class="rotulo-peca">A partir de</p><p class="preco-peca">R$ 42,90</p><a class="botao botao-primario botao-pequeno" href="#agendamento">Comprar</a></div></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="secao secao-agendamento" id="agendamento" aria-labelledby="titulo-agendamento">
+          <div class="conteiner grade-agendamento">
+            <div class="agendamento-texto"><span class="rotulo">Agende seu serviço</span><h2 id="titulo-agendamento">Rápido, fácil e sem complicação</h2><p>Preencha os dados abaixo e escolha o melhor horário para o seu atendimento.</p><div class="agendamento-pontos"><span>✓ Confirmação pelo WhatsApp</span><span>✓ Diagnóstico transparente</span><span>✓ Garantia no serviço</span></div></div>
+            <form class="formulario-agendamento" action="#agendamento">
+              <div class="grade-formulario"><label class="campo-formulario"><span>Nome completo</span><input type="text" placeholder="Como podemos te chamar?" required></label><label class="campo-formulario"><span>Telefone / WhatsApp</span><input type="tel" placeholder="(00) 00000-0000" required></label><label class="campo-formulario"><span>Modelo do veículo</span><input type="text" placeholder="Ex.: Honda Civic 2020" required></label><label class="campo-formulario"><span>Serviço desejado</span><select required><option value="">Selecione uma opção</option><option>Troca de óleo</option><option>Freios</option><option>Motor</option></select></label><label class="campo-formulario"><span>Data</span><input type="date" required></label><label class="campo-formulario"><span>Horário</span><select required><option value="">Escolha um horário</option><option>08:00</option><option>10:30</option><option>14:00</option><option>16:30</option></select></label></div>
+              <button class="botao botao-primario" type="submit">Confirmar agendamento <span>→</span></button>
+            </form>
+          </div>
+        </section>
+
+        <section class="secao secao-branca" id="sobre" aria-labelledby="titulo-motivos">
+          <div class="conteiner"><div class="secao-cabecalho"><div><span class="rotulo">Por que escolher a AutoTech?</span><h2 id="titulo-motivos">Seu carro merece o melhor</h2></div></div><div class="grade-motivos">
+            <article class="motivo"><span class="icone-motivo">✦</span><h3>Profissionais qualificados</h3><p>Equipe experiente e em constante atualização.</p></article><article class="motivo"><span class="icone-motivo">↯</span><h3>Atendimento rápido</h3><p>Seu tempo é importante para nós.</p></article><article class="motivo"><span class="icone-motivo">♢</span><h3>Peças de qualidade</h3><p>Trabalhamos com as melhores marcas do mercado.</p></article><article class="motivo"><span class="icone-motivo">＄</span><h3>Preços justos</h3><p>Transparência e melhor custo-benefício.</p></article>
+          </div></div>
+        </section>
+      </main>
+
+      <footer class="faixa-contato" id="contato">
+        <div class="conteiner grade-rodape">
+          <div class="marca-rodape"><a class="marca" href="#inicio" aria-label="AutoTech, voltar ao início"><span class="marca-simbolo" aria-hidden="true"><img class="marca-simbolo-img" src="./imagens/favicon.svg" alt=""></span><span class="marca-texto"><span class="marca-nome">Auto<em>Tech</em></span><span class="marca-subtitulo">Oficina Mecânica</span></span></a><p>Confiança, precisão e cuidado em cada quilômetro da sua história.</p></div>
+          <div><h2 class="titulo-rodape">Fale com a gente</h2><ul class="lista-contato"><li>⌖ R. Francelino Nunes de Paula, 229 · Centro<br>São João · MG</li><li>◔ (34) 99723-9960</li><li>◷ Seg a Sex: 8h às 18h<br>Sáb: 7h às 12h</li></ul></div>
+          <div><h2 class="titulo-rodape">Links</h2><ul class="links-rodape"><li><a href="#servicos">Serviços <span>›</span></a></li><li><a href="#pecas">Peças <span>›</span></a></li><li><a href="#agendamento">Agendamento <span>›</span></a></li><li><a href="#sobre">Sobre nós <span>›</span></a></li></ul></div>
+          <div><h2 class="titulo-rodape">Nos acompanhe</h2><div class="redes-sociais"><a href="https://github.com/Gustavo-A-dos-Santos/OficinaMecanica" aria-label="Github do Desenvolvedor da AutoTech">◎</a></div></div>
+        </div>
+        <div class="conteiner direitos-autorais"><span>© 2026 AutoTech Oficina Mecânica. Todos os direitos reservados.</span><span>Seu carro merece estar em boas mãos.</span></div>
+      </footer>
+    </div>
+  </body>
+</html>
